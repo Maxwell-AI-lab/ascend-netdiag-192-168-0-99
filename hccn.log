@@ -1,0 +1,969 @@
+=== hccn diag started: 2026-10-13 11:07:41 host=aura-1.novalocal ip=192.168.0.99 172.17.0.1  ===
+0
+link status: UP
+1
+link status: UP
+2
+link status: UP
+3
+link status: DOWN
+4
+link status: UP
+5
+link status: UP
+6
+link status: UP
+7
+link status: UP
+8
+Get invalid device id.
+[devid 0]current time        : Tue Oct 13 11:07:43 2026
+[devid 0]link up count       : 2
+[devid 0]link down count     : 1
+[devid 0]link change records :
+[devid 0]    Fri Aug 14 23:26:34 2026    LINK UP
+[devid 0]    Fri Aug 14 23:26:34 2026    LINK DOWN
+[devid 0]    Fri Aug 14 23:26:19 2026    LINK UP
+[devid 1]current time        : Tue Oct 13 11:07:43 2026
+[devid 1]link up count       : 2
+[devid 1]link down count     : 1
+[devid 1]link change records :
+[devid 1]    Fri Aug 14 23:26:41 2026    LINK UP
+[devid 1]    Fri Aug 14 23:26:41 2026    LINK DOWN
+[devid 1]    Fri Aug 14 23:26:26 2026    LINK UP
+[devid 2]current time        : Tue Oct 13 11:07:44 2026
+[devid 2]link up count       : 2
+[devid 2]link down count     : 1
+[devid 2]link change records :
+[devid 2]    Fri Aug 14 23:26:34 2026    LINK UP
+[devid 2]    Fri Aug 14 23:26:34 2026    LINK DOWN
+[devid 2]    Fri Aug 14 23:26:19 2026    LINK UP
+[devid 3]current time        : Tue Oct 13 11:07:44 2026
+[devid 3]link up count       : 2
+[devid 3]link down count     : 2
+[devid 3]link change records :
+[devid 3]    Tue Oct 13 04:04:46 2026    LINK DOWN
+[devid 3]    Fri Aug 14 23:26:39 2026    LINK UP
+[devid 3]    Fri Aug 14 23:26:39 2026    LINK DOWN
+[devid 3]    Fri Aug 14 23:26:24 2026    LINK UP
+[devid 4]current time        : Tue Oct 13 11:07:44 2026
+[devid 4]link up count       : 2
+[devid 4]link down count     : 1
+[devid 4]link change records :
+[devid 4]    Fri Aug 14 23:26:36 2026    LINK UP
+[devid 4]    Fri Aug 14 23:26:36 2026    LINK DOWN
+[devid 4]    Fri Aug 14 23:26:21 2026    LINK UP
+[devid 5]current time        : Tue Oct 13 11:07:45 2026
+[devid 5]link up count       : 2
+[devid 5]link down count     : 1
+[devid 5]link change records :
+[devid 5]    Fri Aug 14 23:26:38 2026    LINK UP
+[devid 5]    Fri Aug 14 23:26:37 2026    LINK DOWN
+[devid 5]    Fri Aug 14 23:26:23 2026    LINK UP
+[devid 6]current time        : Tue Oct 13 11:07:44 2026
+[devid 6]link up count       : 2
+[devid 6]link down count     : 1
+[devid 6]link change records :
+[devid 6]    Fri Aug 14 23:27:07 2026    LINK UP
+[devid 6]    Fri Aug 14 23:27:07 2026    LINK DOWN
+[devid 6]    Fri Aug 14 23:26:52 2026    LINK UP
+[devid 7]current time        : Tue Oct 13 11:07:45 2026
+[devid 7]link up count       : 2
+[devid 7]link down count     : 1
+[devid 7]link change records :
+[devid 7]    Fri Aug 14 23:26:37 2026    LINK UP
+[devid 7]    Fri Aug 14 23:26:37 2026    LINK DOWN
+[devid 7]    Fri Aug 14 23:26:22 2026    LINK UP
+Get invalid device id.
+***0***
+net health status: Success
+***1***
+net health status: Success
+***2***
+net health status: Success
+***3***
+net health status: Receive timeout
+***4***
+net health status: Success
+***5***
+net health status: Success
+***6***
+net health status: Success
+***7***
+net health status: Success
+***8***
+Get invalid device id.
+id=0
+Chassis ID TLV
+	MAC: 90:f9:b7:e0:63:d1
+Port ID TLV
+	Ifname: 400GE1/1/2:1
+Time to Live TLV
+	120
+Port Description TLV
+	to_apsoutheast1g-pod101-kat2ea48xl-8-313t-bm000003_ohkgwb-a02/6U_D-eth0
+System Name TLV
+	apsoutheast1g-nc01_bpod01-ce9860-rap_roce-29.12.28.13
+System Description TLV
+	Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.230 (CE9860EI V200R023C00SPC500)
+Copyright (C) 2012-2023 Huawei Technologies Co., Ltd.
+Huawei CE9860-4C-EI-A
+
+System Capabilities TLV
+	System capabilities:  Bridge, Router
+	Enabled capabilities: Bridge, Router
+Management Address TLV
+	IPv4: 29.12.28.13
+	Ifindex: 4
+Port VLAN ID TLV
+	PVID: 204
+Port and Protocol VLAN ID TLV
+	PVID: 0, not supported, not enabled
+VLAN Name TLV
+	VID 204: Name VLAN204
+MAC/PHY Configuration Status TLV
+	Auto-negotiation not supported and not enabled
+	PMD auto-negotiation capabilities: 0x0000
+	MAU type: Unknown [0x0000]
+Link Aggregation TLV
+	Aggregation capable
+	Currently not aggregated
+	Aggregated Port ID: 0
+Maximum Frame Size TLV
+	9216
+End of LLDPDU TLV
+
+id=1
+Chassis ID TLV
+	MAC: 90:f9:b7:e0:63:d1
+Port ID TLV
+	Ifname: 400GE1/1/2:2
+Time to Live TLV
+	120
+Port Description TLV
+	to_apsoutheast1g-pod101-kat2ea48xl-8-313t-bm000003_ohkgwb-a02/6U_D-eth1
+System Name TLV
+	apsoutheast1g-nc01_bpod01-ce9860-rap_roce-29.12.28.13
+System Description TLV
+	Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.230 (CE9860EI V200R023C00SPC500)
+Copyright (C) 2012-2023 Huawei Technologies Co., Ltd.
+Huawei CE9860-4C-EI-A
+
+System Capabilities TLV
+	System capabilities:  Bridge, Router
+	Enabled capabilities: Bridge, Router
+Management Address TLV
+	IPv4: 29.12.28.13
+	Ifindex: 4
+Port VLAN ID TLV
+	PVID: 204
+Port and Protocol VLAN ID TLV
+	PVID: 0, not supported, not enabled
+VLAN Name TLV
+	VID 204: Name VLAN204
+MAC/PHY Configuration Status TLV
+	Auto-negotiation not supported and not enabled
+	PMD auto-negotiation capabilities: 0x0000
+	MAU type: Unknown [0x0000]
+Link Aggregation TLV
+	Aggregation capable
+	Currently not aggregated
+	Aggregated Port ID: 0
+Maximum Frame Size TLV
+	9216
+End of LLDPDU TLV
+
+id=2
+Chassis ID TLV
+	MAC: 90:f9:b7:e0:63:d1
+Port ID TLV
+	Ifname: 400GE1/2/2:1
+Time to Live TLV
+	120
+Port Description TLV
+	to_apsoutheast1g-pod101-kat2ea48xl-8-313t-bm000003_ohkgwb-a02/6U_D-eth2
+System Name TLV
+	apsoutheast1g-nc01_bpod01-ce9860-rap_roce-29.12.28.13
+System Description TLV
+	Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.230 (CE9860EI V200R023C00SPC500)
+Copyright (C) 2012-2023 Huawei Technologies Co., Ltd.
+Huawei CE9860-4C-EI-A
+
+System Capabilities TLV
+	System capabilities:  Bridge, Router
+	Enabled capabilities: Bridge, Router
+Management Address TLV
+	IPv4: 29.12.28.13
+	Ifindex: 4
+Port VLAN ID TLV
+	PVID: 204
+Port and Protocol VLAN ID TLV
+	PVID: 0, not supported, not enabled
+VLAN Name TLV
+	VID 204: Name VLAN204
+MAC/PHY Configuration Status TLV
+	Auto-negotiation not supported and not enabled
+	PMD auto-negotiation capabilities: 0x0000
+	MAU type: Unknown [0x0000]
+Link Aggregation TLV
+	Aggregation capable
+	Currently not aggregated
+	Aggregated Port ID: 0
+Maximum Frame Size TLV
+	9216
+End of LLDPDU TLV
+
+id=3
+
+id=4
+Chassis ID TLV
+	MAC: 90:f9:b7:e0:62:41
+Port ID TLV
+	Ifname: 400GE1/1/2:1
+Time to Live TLV
+	120
+Port Description TLV
+	to_apsoutheast1g-pod101-kat2ea48xl-8-313t-bm000003_ohkgwb-a02/6U_D-eth4
+System Name TLV
+	apsoutheast1g-nc01_bpod01-ce9860-rap_roce-29.12.28.15
+System Description TLV
+	Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.230 (CE9860EI V200R023C00SPC500)
+Copyright (C) 2012-2023 Huawei Technologies Co., Ltd.
+Huawei CE9860-4C-EI-A
+
+System Capabilities TLV
+	System capabilities:  Bridge, Router
+	Enabled capabilities: Bridge, Router
+Management Address TLV
+	IPv4: 29.12.28.15
+	Ifindex: 4
+Port VLAN ID TLV
+	PVID: 204
+Port and Protocol VLAN ID TLV
+	PVID: 0, not supported, not enabled
+VLAN Name TLV
+	VID 204: Name VLAN204
+MAC/PHY Configuration Status TLV
+	Auto-negotiation not supported and not enabled
+	PMD auto-negotiation capabilities: 0x0000
+	MAU type: Unknown [0x0000]
+Link Aggregation TLV
+	Aggregation capable
+	Currently not aggregated
+	Aggregated Port ID: 0
+Maximum Frame Size TLV
+	9216
+End of LLDPDU TLV
+
+id=5
+Chassis ID TLV
+	MAC: 90:f9:b7:e0:62:41
+Port ID TLV
+	Ifname: 400GE1/1/2:2
+Time to Live TLV
+	120
+Port Description TLV
+	to_apsoutheast1g-pod101-kat2ea48xl-8-313t-bm000003_ohkgwb-a02/6U_D-eth5
+System Name TLV
+	apsoutheast1g-nc01_bpod01-ce9860-rap_roce-29.12.28.15
+System Description TLV
+	Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.230 (CE9860EI V200R023C00SPC500)
+Copyright (C) 2012-2023 Huawei Technologies Co., Ltd.
+Huawei CE9860-4C-EI-A
+
+System Capabilities TLV
+	System capabilities:  Bridge, Router
+	Enabled capabilities: Bridge, Router
+Management Address TLV
+	IPv4: 29.12.28.15
+	Ifindex: 4
+Port VLAN ID TLV
+	PVID: 204
+Port and Protocol VLAN ID TLV
+	PVID: 0, not supported, not enabled
+VLAN Name TLV
+	VID 204: Name VLAN204
+MAC/PHY Configuration Status TLV
+	Auto-negotiation not supported and not enabled
+	PMD auto-negotiation capabilities: 0x0000
+	MAU type: Unknown [0x0000]
+Link Aggregation TLV
+	Aggregation capable
+	Currently not aggregated
+	Aggregated Port ID: 0
+Maximum Frame Size TLV
+	9216
+End of LLDPDU TLV
+
+id=6
+Chassis ID TLV
+	MAC: 90:f9:b7:e0:62:41
+Port ID TLV
+	Ifname: 400GE1/2/2:1
+Time to Live TLV
+	120
+Port Description TLV
+	to_apsoutheast1g-pod101-kat2ea48xl-8-313t-bm000003_ohkgwb-a02/6U_D-eth6
+System Name TLV
+	apsoutheast1g-nc01_bpod01-ce9860-rap_roce-29.12.28.15
+System Description TLV
+	Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.230 (CE9860EI V200R023C00SPC500)
+Copyright (C) 2012-2023 Huawei Technologies Co., Ltd.
+Huawei CE9860-4C-EI-A
+
+System Capabilities TLV
+	System capabilities:  Bridge, Router
+	Enabled capabilities: Bridge, Router
+Management Address TLV
+	IPv4: 29.12.28.15
+	Ifindex: 4
+Port VLAN ID TLV
+	PVID: 204
+Port and Protocol VLAN ID TLV
+	PVID: 0, not supported, not enabled
+VLAN Name TLV
+	VID 204: Name VLAN204
+MAC/PHY Configuration Status TLV
+	Auto-negotiation not supported and not enabled
+	PMD auto-negotiation capabilities: 0x0000
+	MAU type: Unknown [0x0000]
+Link Aggregation TLV
+	Aggregation capable
+	Currently not aggregated
+	Aggregated Port ID: 0
+Maximum Frame Size TLV
+	9216
+End of LLDPDU TLV
+
+id=7
+Chassis ID TLV
+	MAC: 90:f9:b7:e0:62:41
+Port ID TLV
+	Ifname: 400GE1/2/2:2
+Time to Live TLV
+	120
+Port Description TLV
+	to_apsoutheast1g-pod101-kat2ea48xl-8-313t-bm000003_ohkgwb-a02/6U_D-eth7
+System Name TLV
+	apsoutheast1g-nc01_bpod01-ce9860-rap_roce-29.12.28.15
+System Description TLV
+	Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.230 (CE9860EI V200R023C00SPC500)
+Copyright (C) 2012-2023 Huawei Technologies Co., Ltd.
+Huawei CE9860-4C-EI-A
+
+System Capabilities TLV
+	System capabilities:  Bridge, Router
+	Enabled capabilities: Bridge, Router
+Management Address TLV
+	IPv4: 29.12.28.15
+	Ifindex: 4
+Port VLAN ID TLV
+	PVID: 204
+Port and Protocol VLAN ID TLV
+	PVID: 0, not supported, not enabled
+VLAN Name TLV
+	VID 204: Name VLAN204
+MAC/PHY Configuration Status TLV
+	Auto-negotiation not supported and not enabled
+	PMD auto-negotiation capabilities: 0x0000
+	MAU type: Unknown [0x0000]
+Link Aggregation TLV
+	Aggregation capable
+	Currently not aggregated
+	Aggregated Port ID: 0
+Maximum Frame Size TLV
+	9216
+End of LLDPDU TLV
+
+id=8
+Get invalid device id.
+id=0
+optical info:
+present              : present
+temperature          : 46 C
+high power enable reg: enabled
+vendor name          : Hisense         
+vendor part number   : LMQ8611-PC+     
+vendor serial number : V8BE1H40HLD     
+vendor org unique id : 0xac 0x4a 0xfe
+xsfp identifier      : QSFP+ or later
+xsfp wave length     : 850 nm
+manufact date code   : 2024.1.28
+Vcc                  : 3255.50 mV
+Tx Power0            : 1.1993 mW
+Rx Power0            : 1.3018 mW
+Tx Power1            : 1.2302 mW
+Rx Power1            : 1.3377 mW
+Tx Power2            : 1.2215 mW
+Rx Power2            : 1.3300 mW
+Tx Power3            : 1.1778 mW
+Rx Power3            : 1.2364 mW
+Vcc High Thres       : 3465.00 mV
+Vcc Low Thres        : 3135.00 mV
+Temp High Thres      : 70 C
+Temp Low Thres       : 0 C
+TxPower High Thres   : 3.5481 mW
+TxPower Low Thres    : 0.2818 mW
+RxPower High Thres   : 3.5481 mW
+RxPower Low Thres    : 0.1445 mW
+Tx Bias0             : 7.9360 mA
+Tx Bias1             : 7.9260 mA
+Tx Bias2             : 7.9340 mA
+Tx Bias3             : 7.9280 mA
+Tx Los Flag          : 0x0
+Rx Los Flag          : 0x0
+Tx LoL Flag          : 0x0
+Rx LoL Flag          : 0x0
+Host SNR Lane0       : not supported
+Host SNR Lane1       : not supported
+Host SNR Lane2       : not supported
+Host SNR Lane3       : not supported
+Media SNR Lane0      : 25.9609 dB
+Media SNR Lane1      : 25.3398 dB
+Media SNR Lane2      : 25.9609 dB
+Media SNR Lane3      : 25.3398 dB
+Physical Code        : UPC
+vendor rev           : 01
+Specification compliance: NA
+id=1
+optical info:
+present              : present
+temperature          : 48 C
+high power enable reg: enabled
+vendor name          : Hisense         
+vendor part number   : LMQ8611-PC+     
+vendor serial number : V8BE1H40HG9     
+vendor org unique id : 0xac 0x4a 0xfe
+xsfp identifier      : QSFP+ or later
+xsfp wave length     : 850 nm
+manufact date code   : 2024.1.28
+Vcc                  : 3294.00 mV
+Tx Power0            : 1.2431 mW
+Rx Power0            : 1.3323 mW
+Tx Power1            : 1.3083 mW
+Rx Power1            : 1.3645 mW
+Tx Power2            : 1.2721 mW
+Rx Power2            : 1.3040 mW
+Tx Power3            : 1.2697 mW
+Rx Power3            : 1.2563 mW
+Vcc High Thres       : 3465.00 mV
+Vcc Low Thres        : 3135.00 mV
+Temp High Thres      : 70 C
+Temp Low Thres       : 0 C
+TxPower High Thres   : 3.5481 mW
+TxPower Low Thres    : 0.2818 mW
+RxPower High Thres   : 3.5481 mW
+RxPower Low Thres    : 0.1445 mW
+Tx Bias0             : 7.9360 mA
+Tx Bias1             : 7.9280 mA
+Tx Bias2             : 7.9360 mA
+Tx Bias3             : 7.9260 mA
+Tx Los Flag          : 0x0
+Rx Los Flag          : 0x0
+Tx LoL Flag          : 0x0
+Rx LoL Flag          : 0x0
+Host SNR Lane0       : not supported
+Host SNR Lane1       : not supported
+Host SNR Lane2       : not supported
+Host SNR Lane3       : not supported
+Media SNR Lane0      : 25.6406 dB
+Media SNR Lane1      : 23.8789 dB
+Media SNR Lane2      : 23.8789 dB
+Media SNR Lane3      : 25.0586 dB
+Physical Code        : UPC
+vendor rev           : 01
+Specification compliance: NA
+id=2
+optical info:
+present              : present
+temperature          : 49 C
+high power enable reg: enabled
+vendor name          : Hisense         
+vendor part number   : LMQ8611-PC+     
+vendor serial number : V8BE1H40HPF     
+vendor org unique id : 0xac 0x4a 0xfe
+xsfp identifier      : QSFP+ or later
+xsfp wave length     : 850 nm
+manufact date code   : 2024.1.28
+Vcc                  : 3214.90 mV
+Tx Power0            : 1.1940 mW
+Rx Power0            : 1.2351 mW
+Tx Power1            : 1.2419 mW
+Rx Power1            : 1.2943 mW
+Tx Power2            : 1.2561 mW
+Rx Power2            : 1.2602 mW
+Tx Power3            : 1.2136 mW
+Rx Power3            : 1.2429 mW
+Vcc High Thres       : 3465.00 mV
+Vcc Low Thres        : 3135.00 mV
+Temp High Thres      : 70 C
+Temp Low Thres       : 0 C
+TxPower High Thres   : 3.5481 mW
+TxPower Low Thres    : 0.2818 mW
+RxPower High Thres   : 3.5481 mW
+RxPower Low Thres    : 0.1445 mW
+Tx Bias0             : 7.9340 mA
+Tx Bias1             : 7.9280 mA
+Tx Bias2             : 7.9340 mA
+Tx Bias3             : 7.9280 mA
+Tx Los Flag          : 0x0
+Rx Los Flag          : 0x0
+Tx LoL Flag          : 0x0
+Rx LoL Flag          : 0x0
+Host SNR Lane0       : not supported
+Host SNR Lane1       : not supported
+Host SNR Lane2       : not supported
+Host SNR Lane3       : not supported
+Media SNR Lane0      : 25.0586 dB
+Media SNR Lane1      : 25.0586 dB
+Media SNR Lane2      : 25.0586 dB
+Media SNR Lane3      : 25.3398 dB
+Physical Code        : UPC
+vendor rev           : 01
+Specification compliance: NA
+id=3
+optical info:
+present              : present
+temperature          : 49 C
+high power enable reg: enabled
+vendor name          : Hisense         
+vendor part number   : LMQ8611-PC+     
+vendor serial number : V8BE1H40HG8     
+vendor org unique id : 0xac 0x4a 0xfe
+xsfp identifier      : QSFP+ or later
+xsfp wave length     : 850 nm
+manufact date code   : 2024.1.28
+Vcc                  : 3229.80 mV
+Tx Power0            : 1.1389 mW
+Rx Power0            : 0.5762 mW
+Tx Power1            : 1.2584 mW
+Rx Power1            : 1.1933 mW
+Tx Power2            : 1.2060 mW
+Rx Power2            : 1.1457 mW
+Tx Power3            : 1.2781 mW
+Rx Power3            : 1.1732 mW
+Vcc High Thres       : 3465.00 mV
+Vcc Low Thres        : 3135.00 mV
+Temp High Thres      : 70 C
+Temp Low Thres       : 0 C
+TxPower High Thres   : 3.5481 mW
+TxPower Low Thres    : 0.2818 mW
+RxPower High Thres   : 3.5481 mW
+RxPower Low Thres    : 0.1445 mW
+Tx Bias0             : 7.9340 mA
+Tx Bias1             : 7.9280 mA
+Tx Bias2             : 7.9340 mA
+Tx Bias3             : 7.9300 mA
+Tx Los Flag          : 0x0
+Rx Los Flag          : 0x0
+Tx LoL Flag          : 0x0
+Rx LoL Flag          : 0x1
+Host SNR Lane0       : not supported
+Host SNR Lane1       : not supported
+Host SNR Lane2       : not supported
+Host SNR Lane3       : not supported
+Media SNR Lane0      : 0.0000 dB
+Media SNR Lane1      : 25.0586 dB
+Media SNR Lane2      : 23.2969 dB
+Media SNR Lane3      : 25.9609 dB
+Physical Code        : UPC
+vendor rev           : 01
+Specification compliance: NA
+id=4
+optical info:
+present              : present
+temperature          : 50 C
+high power enable reg: enabled
+vendor name          : Hisense         
+vendor part number   : LMQ8611-PC+     
+vendor serial number : V8BE1H40HPP     
+vendor org unique id : 0xac 0x4a 0xfe
+xsfp identifier      : QSFP+ or later
+xsfp wave length     : 850 nm
+manufact date code   : 2024.1.28
+Vcc                  : 3222.40 mV
+Tx Power0            : 1.2313 mW
+Rx Power0            : 1.2659 mW
+Tx Power1            : 1.2780 mW
+Rx Power1            : 1.2208 mW
+Tx Power2            : 1.2602 mW
+Rx Power2            : 1.3277 mW
+Tx Power3            : 1.2608 mW
+Rx Power3            : 1.2962 mW
+Vcc High Thres       : 3465.00 mV
+Vcc Low Thres        : 3135.00 mV
+Temp High Thres      : 70 C
+Temp Low Thres       : 0 C
+TxPower High Thres   : 3.5481 mW
+TxPower Low Thres    : 0.2818 mW
+RxPower High Thres   : 3.5481 mW
+RxPower Low Thres    : 0.1445 mW
+Tx Bias0             : 7.9360 mA
+Tx Bias1             : 7.9260 mA
+Tx Bias2             : 7.9340 mA
+Tx Bias3             : 7.9260 mA
+Tx Los Flag          : 0x0
+Rx Los Flag          : 0x0
+Tx LoL Flag          : 0x0
+Rx LoL Flag          : 0x0
+Host SNR Lane0       : not supported
+Host SNR Lane1       : not supported
+Host SNR Lane2       : not supported
+Host SNR Lane3       : not supported
+Media SNR Lane0      : 25.6406 dB
+Media SNR Lane1      : 26.3086 dB
+Media SNR Lane2      : 25.0586 dB
+Media SNR Lane3      : 25.3398 dB
+Physical Code        : UPC
+vendor rev           : 01
+Specification compliance: NA
+id=5
+optical info:
+present              : present
+temperature          : 48 C
+high power enable reg: enabled
+vendor name          : Hisense         
+vendor part number   : LMQ8611-PC+     
+vendor serial number : V8BE1H40HPG     
+vendor org unique id : 0xac 0x4a 0xfe
+xsfp identifier      : QSFP+ or later
+xsfp wave length     : 850 nm
+manufact date code   : 2024.1.28
+Vcc                  : 3231.20 mV
+Tx Power0            : 1.2229 mW
+Rx Power0            : 1.3463 mW
+Tx Power1            : 1.1446 mW
+Rx Power1            : 1.3050 mW
+Tx Power2            : 1.1127 mW
+Rx Power2            : 1.2438 mW
+Tx Power3            : 1.1106 mW
+Rx Power3            : 1.2739 mW
+Vcc High Thres       : 3465.00 mV
+Vcc Low Thres        : 3135.00 mV
+Temp High Thres      : 70 C
+Temp Low Thres       : 0 C
+TxPower High Thres   : 3.5481 mW
+TxPower Low Thres    : 0.2818 mW
+RxPower High Thres   : 3.5481 mW
+RxPower Low Thres    : 0.1445 mW
+Tx Bias0             : 7.9360 mA
+Tx Bias1             : 7.9240 mA
+Tx Bias2             : 7.9340 mA
+Tx Bias3             : 7.9280 mA
+Tx Los Flag          : 0x0
+Rx Los Flag          : 0x0
+Tx LoL Flag          : 0x0
+Rx LoL Flag          : 0x0
+Host SNR Lane0       : not supported
+Host SNR Lane1       : not supported
+Host SNR Lane2       : not supported
+Host SNR Lane3       : not supported
+Media SNR Lane0      : 25.6406 dB
+Media SNR Lane1      : 25.6406 dB
+Media SNR Lane2      : 25.6406 dB
+Media SNR Lane3      : 25.6406 dB
+Physical Code        : UPC
+vendor rev           : 01
+Specification compliance: NA
+id=6
+optical info:
+present              : present
+temperature          : 47 C
+high power enable reg: enabled
+vendor name          : Hisense         
+vendor part number   : LMQ8611-PC+     
+vendor serial number : V8BE1H40HLA     
+vendor org unique id : 0xac 0x4a 0xfe
+xsfp identifier      : QSFP+ or later
+xsfp wave length     : 850 nm
+manufact date code   : 2024.1.28
+Vcc                  : 3247.30 mV
+Tx Power0            : 1.2061 mW
+Rx Power0            : 1.7223 mW
+Tx Power1            : 1.2232 mW
+Rx Power1            : 1.3323 mW
+Tx Power2            : 1.2575 mW
+Rx Power2            : 1.4764 mW
+Tx Power3            : 1.2149 mW
+Rx Power3            : 1.5638 mW
+Vcc High Thres       : 3465.00 mV
+Vcc Low Thres        : 3135.00 mV
+Temp High Thres      : 70 C
+Temp Low Thres       : 0 C
+TxPower High Thres   : 3.5481 mW
+TxPower Low Thres    : 0.2818 mW
+RxPower High Thres   : 3.5481 mW
+RxPower Low Thres    : 0.1445 mW
+Tx Bias0             : 7.9340 mA
+Tx Bias1             : 7.9300 mA
+Tx Bias2             : 7.9360 mA
+Tx Bias3             : 7.9240 mA
+Tx Los Flag          : 0x0
+Rx Los Flag          : 0x0
+Tx LoL Flag          : 0x0
+Rx LoL Flag          : 0x0
+Host SNR Lane0       : not supported
+Host SNR Lane1       : not supported
+Host SNR Lane2       : not supported
+Host SNR Lane3       : not supported
+Media SNR Lane0      : 25.0586 dB
+Media SNR Lane1      : 25.9609 dB
+Media SNR Lane2      : 26.3086 dB
+Media SNR Lane3      : 23.6758 dB
+Physical Code        : UPC
+vendor rev           : 01
+Specification compliance: NA
+id=7
+optical info:
+present              : present
+temperature          : 49 C
+high power enable reg: enabled
+vendor name          : HG GENUINE      
+vendor part number   : MTRQ-4S104      
+vendor serial number : 7000030100669   
+vendor org unique id : 0xda 0x28 0xec
+xsfp identifier      : QSFP+ or later
+xsfp wave length     : 850 nm
+manufact date code   : 2024.1.20
+Vcc                  : 3207.90 mV
+Tx Power0            : 1.2163 mW
+Rx Power0            : 1.5506 mW
+Tx Power1            : 1.2504 mW
+Rx Power1            : 1.5490 mW
+Tx Power2            : 1.2619 mW
+Rx Power2            : 1.4144 mW
+Tx Power3            : 1.2135 mW
+Rx Power3            : 1.6333 mW
+Vcc High Thres       : 3465.00 mV
+Vcc Low Thres        : 3135.00 mV
+Temp High Thres      : 70 C
+Temp Low Thres       : 0 C
+TxPower High Thres   : 3.5481 mW
+TxPower Low Thres    : 0.2818 mW
+RxPower High Thres   : 3.5481 mW
+RxPower Low Thres    : 0.1445 mW
+Tx Bias0             : 7.0320 mA
+Tx Bias1             : 7.0320 mA
+Tx Bias2             : 7.0320 mA
+Tx Bias3             : 7.0320 mA
+Tx Los Flag          : 0x0
+Rx Los Flag          : 0x0
+Tx LoL Flag          : 0x0
+Rx LoL Flag          : 0x0
+Host SNR Lane0       : not supported
+Host SNR Lane1       : not supported
+Host SNR Lane2       : not supported
+Host SNR Lane3       : not supported
+Media SNR Lane0      : 25.9570 dB
+Media SNR Lane1      : 25.9570 dB
+Media SNR Lane2      : 25.9570 dB
+Media SNR Lane3      : 26.3047 dB
+Physical Code        : UPC
+vendor rev           : 10
+Specification compliance: NA
+id=8
+Get invalid device id.
+id=0
+Cdr Host SNR Lane1         : 603607
+Cdr Host SNR Lane2         : 595645
+Cdr Host SNR Lane3         : 571133
+Cdr Host SNR Lane4         : 562361
+Cdr Media SNR Lane1        : 562119
+Cdr Media SNR Lane2        : 607313
+Cdr Media SNR Lane3        : 646083
+Cdr Media SNR Lane4        : 507063
+Cdr His Host SNR Lane1     : 547308
+Cdr His Host SNR Lane2     : 589893
+Cdr His Host SNR Lane3     : 524400
+Cdr His Host SNR Lane4     : 583544
+Cdr His Media SNR Lane1    : 545292
+Cdr His Media SNR Lane2    : 590949
+Cdr His Media SNR Lane3    : 630112
+Cdr His Media SNR Lane4    : 495375
+id=1
+Cdr Host SNR Lane1         : 597716
+Cdr Host SNR Lane2         : 570517
+Cdr Host SNR Lane3         : 567450
+Cdr Host SNR Lane4         : 591257
+Cdr Media SNR Lane1        : 664010
+Cdr Media SNR Lane2        : 549687
+Cdr Media SNR Lane3        : 661831
+Cdr Media SNR Lane4        : 600791
+Cdr His Host SNR Lane1     : 533322
+Cdr His Host SNR Lane2     : 531980
+Cdr His Host SNR Lane3     : 531960
+Cdr His Host SNR Lane4     : 593816
+Cdr His Media SNR Lane1    : 612658
+Cdr His Media SNR Lane2    : 536966
+Cdr His Media SNR Lane3    : 657410
+Cdr His Media SNR Lane4    : 576460
+id=2
+Cdr Host SNR Lane1         : 610543
+Cdr Host SNR Lane2         : 632854
+Cdr Host SNR Lane3         : 515457
+Cdr Host SNR Lane4         : 626647
+Cdr Media SNR Lane1        : 597176
+Cdr Media SNR Lane2        : 649924
+Cdr Media SNR Lane3        : 642345
+Cdr Media SNR Lane4        : 575785
+Cdr His Host SNR Lane1     : 599430
+Cdr His Host SNR Lane2     : 618175
+Cdr His Host SNR Lane3     : 462126
+Cdr His Host SNR Lane4     : 615438
+Cdr His Media SNR Lane1    : 580854
+Cdr His Media SNR Lane2    : 614560
+Cdr His Media SNR Lane3    : 606021
+Cdr His Media SNR Lane4    : 562991
+id=3
+Cdr Host SNR Lane1         : 641287
+Cdr Host SNR Lane2         : 592642
+Cdr Host SNR Lane3         : 563608
+Cdr Host SNR Lane4         : 644634
+Cdr Media SNR Lane1        : 98111
+Cdr Media SNR Lane2        : 588692
+Cdr Media SNR Lane3        : 694096
+Cdr Media SNR Lane4        : 612212
+Cdr His Host SNR Lane1     : 619291
+Cdr His Host SNR Lane2     : 551418
+Cdr His Host SNR Lane3     : 556712
+Cdr His Host SNR Lane4     : 632000
+Cdr His Media SNR Lane1    : 85428
+Cdr His Media SNR Lane2    : 541179
+Cdr His Media SNR Lane3    : 676173
+Cdr His Media SNR Lane4    : 595448
+id=4
+Cdr Host SNR Lane1         : 501671
+Cdr Host SNR Lane2         : 605859
+Cdr Host SNR Lane3         : 480095
+Cdr Host SNR Lane4         : 599137
+Cdr Media SNR Lane1        : 545800
+Cdr Media SNR Lane2        : 619912
+Cdr Media SNR Lane3        : 657199
+Cdr Media SNR Lane4        : 506765
+Cdr His Host SNR Lane1     : 501795
+Cdr His Host SNR Lane2     : 591136
+Cdr His Host SNR Lane3     : 470742
+Cdr His Host SNR Lane4     : 525021
+Cdr His Media SNR Lane1    : 535052
+Cdr His Media SNR Lane2    : 607378
+Cdr His Media SNR Lane3    : 633750
+Cdr His Media SNR Lane4    : 466890
+id=5
+Cdr Host SNR Lane1         : 593051
+Cdr Host SNR Lane2         : 560680
+Cdr Host SNR Lane3         : 474064
+Cdr Host SNR Lane4         : 551086
+Cdr Media SNR Lane1        : 622667
+Cdr Media SNR Lane2        : 535032
+Cdr Media SNR Lane3        : 667542
+Cdr Media SNR Lane4        : 573666
+Cdr His Host SNR Lane1     : 589960
+Cdr His Host SNR Lane2     : 554185
+Cdr His Host SNR Lane3     : 467516
+Cdr His Host SNR Lane4     : 533019
+Cdr His Media SNR Lane1    : 606672
+Cdr His Media SNR Lane2    : 526128
+Cdr His Media SNR Lane3    : 658070
+Cdr His Media SNR Lane4    : 567450
+id=6
+Cdr Host SNR Lane1         : 569685
+Cdr Host SNR Lane2         : 606684
+Cdr Host SNR Lane3         : 514390
+Cdr Host SNR Lane4         : 617883
+Cdr Media SNR Lane1        : 563982
+Cdr Media SNR Lane2        : 567389
+Cdr Media SNR Lane3        : 670683
+Cdr Media SNR Lane4        : 522475
+Cdr His Host SNR Lane1     : 558732
+Cdr His Host SNR Lane2     : 590520
+Cdr His Host SNR Lane3     : 480639
+Cdr His Host SNR Lane4     : 534058
+Cdr His Media SNR Lane1    : 551736
+Cdr His Media SNR Lane2    : 527450
+Cdr His Media SNR Lane3    : 656424
+Cdr His Media SNR Lane4    : 466824
+id=7
+Cdr Host SNR Lane1         : 529015
+Cdr Host SNR Lane2         : 485960
+Cdr Host SNR Lane3         : 502428
+Cdr Host SNR Lane4         : 555184
+Cdr Media SNR Lane1        : 625298
+Cdr Media SNR Lane2        : 497199
+Cdr Media SNR Lane3        : 651238
+Cdr Media SNR Lane4        : 556852
+Cdr His Host SNR Lane1     : 512130
+Cdr His Host SNR Lane2     : 475104
+Cdr His Host SNR Lane3     : 475943
+Cdr His Host SNR Lane4     : 537724
+Cdr His Media SNR Lane1    : 607488
+Cdr His Media SNR Lane2    : 499098
+Cdr His Media SNR Lane3    : 618712
+Cdr His Media SNR Lane4    : 535815
+id=8
+Get invalid device id.
+id=0
+----PHY 0 RX SNR INFO:-----------------------------
+npu serdes lane0  :  00584254
+npu serdes lane1  :  00554294
+npu serdes lane2  :  00494761
+npu serdes lane3  :  00516597
+---------------------------------------------------
+id=1
+----PHY 1 RX SNR INFO:-----------------------------
+npu serdes lane0  :  00557227
+npu serdes lane1  :  00532476
+npu serdes lane2  :  00555975
+npu serdes lane3  :  00527440
+---------------------------------------------------
+id=2
+----PHY 2 RX SNR INFO:-----------------------------
+npu serdes lane0  :  00560945
+npu serdes lane1  :  00544857
+npu serdes lane2  :  00550994
+npu serdes lane3  :  00479563
+---------------------------------------------------
+id=3
+----PHY 3 RX SNR INFO:-----------------------------
+npu serdes lane0  :  00140746
+npu serdes lane1  :  00538457
+npu serdes lane2  :  00557191
+npu serdes lane3  :  00511130
+---------------------------------------------------
+id=4
+----PHY 4 RX SNR INFO:-----------------------------
+npu serdes lane0  :  00624306
+npu serdes lane1  :  00591229
+npu serdes lane2  :  00608564
+npu serdes lane3  :  00582625
+---------------------------------------------------
+id=5
+----PHY 5 RX SNR INFO:-----------------------------
+npu serdes lane0  :  00558658
+npu serdes lane1  :  00597595
+npu serdes lane2  :  00649144
+npu serdes lane3  :  00548670
+---------------------------------------------------
+id=6
+----PHY 6 RX SNR INFO:-----------------------------
+npu serdes lane0  :  00564102
+npu serdes lane1  :  00545665
+npu serdes lane2  :  00546108
+npu serdes lane3  :  00510076
+---------------------------------------------------
+id=7
+----PHY 7 RX SNR INFO:-----------------------------
+npu serdes lane0  :  00544660
+npu serdes lane1  :  00549642
+npu serdes lane2  :  00583521
+npu serdes lane3  :  00518085
+---------------------------------------------------
+id=8
+Get invalid device id.
+=== all loops done: 2026-10-13 11:07:59 ===
